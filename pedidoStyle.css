@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pagina{
+    background-image: url(./img/fundo-riscado-abstrato-com-um-efeito-do-grunge\ 1.png);
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.letras{
+color: white;
+}
+
+.mapa{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 0.5s;
+  }
+  
+  .titulo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 35%;
+  }
+
+  .formulario{
+    background-color: #444040;
+    color: #fff;
+    position: relative;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 16px;
+    padding: 8%;
+    left: 50%;
+  }
+
+    .formulario input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .formulario button{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: none;
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .formulario2 {
+        background-color: #444040;
+        color: #fff;
+        position: relative;
+        align-items: center;
+        width: 30%;
+        height: 30%;
+        border-radius: 16px;
+        padding: 8%;
+        right: 0;
+        top: 60%;
+        
+      }
+    
+      .formulario2 input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: none;
+      }
+
+        .formulario2 button{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 8px;
+                border: none;
+                background-color: #4caf50;
+                color: #fff;
+                cursor: pointer;
+        }
+
+        
