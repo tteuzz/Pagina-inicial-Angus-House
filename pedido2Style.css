@@ -49,7 +49,7 @@
     display: inline-block; /* Adicione esta linha */
     padding: 10px; /* Adicione padding se necessário */
   }
-  .formulario{
+  .formulario2{
     background: linear-gradient(rgb(0, 0, 0), rgb(37, 37, 37));
     color: #fff;
     position: relative;
@@ -62,7 +62,7 @@
     left: 25%;
   }
 
-    .formulario input{
+    .formulario2 input{
         width: 100%;
         padding: 10px;
         margin: 10px 0;
@@ -70,7 +70,7 @@
         border: none;
     }
 
-    .formulario button{
+    .formulario2 button{
         width: 100%;
         padding: 10px;
         margin: 10px 0;
@@ -81,10 +81,10 @@
         cursor: pointer;
     }
         
-    .formulario button:hover {
+    .formulario2 button:hover {
       background-color: #45a049;
     }
     
-    .formulario button:focus {
+    .formulario2 button:focus {
       outline: none;
     }
